@@ -1,0 +1,79 @@
+.askquestionguides,.askquestionpublic{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+}
+.askquestionpublic h2,.askquestionguides h2{
+    font-family: Lato,sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    color: #212529;
+    margin-bottom: 15px;
+    margin-right: 40px;
+}
+.askquestionguides ul li{
+    font-family: Lato, sans-serif;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 1.7;
+}
+.askquestionpublic{
+  margin-top: 150px;
+      
+
+}
+.askquestionpublic p{
+    font-family: Lato, sans-serif;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 1.7;
+
+}
+
+.askquestionpublic a{
+    text-decoration: none;
+    color: #212529;
+
+}
+.titlequestion{
+    width: 970px;
+    border-radius: 13px;
+    margin: 10 auto;
+    padding: 15px;
+
+}
+.titlequestion::placeholder{
+    font-size: 20px;
+  
+}
+.descritpion{
+    width: 1000px;
+    background-color: #F8F8F9;
+height: 300px;
+}
+.postbutton{
+    width: 200px;
+    background-color:#516CF0 ;
+    padding: 15px;
+    font-size: 15px;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    color: white;
+  
+    cursor: pointer;
+    margin: 50px 100px;
+}
+.postbutton:hover{
+    background-color: #FE8402;
+
+}
+.questionform,.answerform{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

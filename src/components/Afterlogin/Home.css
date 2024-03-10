@@ -1,0 +1,116 @@
+.askbutton {
+  width: 250px;
+  background-color: #516cf0;
+  border-radius: 20px;
+  padding: 15px;
+  border: none;
+  outline: none;
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.askbutton:hover {
+  background-color: #ff8500;
+}
+
+.asksearch {
+  width: 250px;
+  border: 1px solid black;
+  border-radius: 30px;
+  padding: 15px 30px;
+}
+
+.askall {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+  margin: 40px auto 0;
+  font-family: Lato, sans-serif;
+  font-weight: 400;
+}
+
+.question {
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+.question h1 {
+  margin: 80px auto 30px;
+  font-family: Lato, sans-serif;
+  font-weight: 600;
+  font-size: 35px;
+  color: #212529;
+  line-height: 52px;
+}
+
+.afterlogin {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  margin: 0 auto;
+  gap: 20px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+.usernamequestion {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 50px;
+  margin-left: -50px;
+}
+
+.afterlogin::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(81, 108, 240, 0.5);
+  border-radius: 10px;
+  opacity: 0;
+  transform: scale(0);
+  transition: opacity 0.3s ease 0.2s, transform 0.5s ease 0.1s;
+}
+
+.afterlogin:hover::before {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.afterlogin p,
+.afterloginusername {
+  font-family: Lato, sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  color: black;
+  line-height: 28px;
+  transition: color 0.3s ease;
+}
+
+.afterloginusername {
+  margin-left: 10px;
+  margin-top: -15px;
+  text-decoration: none;
+}
+
+.afterlogin:hover p,
+.afterlogin:hover .afterloginusername {
+  color: darkblue;
+}
+.hometwo{
+  display: flex;
+  align-items: center;
+
+}
+
